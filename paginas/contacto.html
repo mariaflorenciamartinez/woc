@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Trabajemos Juntos</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desarrollamos sitios Web, publicamos Revistas Científicas en OJS y administramos Campus virtuales">
+    <meta name="keywords"  content="WEB, OJS, CAMPUS VIRTUAL, ELEARNING, MOODLE, REVISTA CIENTIFICA">
+    <link rel="shortcut icon" href="../imagenes/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+	<link rel="stylesheet" href="../scss/index.css">
+
+</head>
+
+<body>
+	<header class="container">
+        <nav class="navbar navbar-expand-lg navegacion navbar-light">
+            <div class="container-fluid menu">
+                <a class="navbar-brand" href="../index.html">
+                  	<picture class="logo">
+			<img src="../imagenes/logo-final.fw.png" alt="Logotipo WOC">
+                  	</picture>
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="quienes-somos.html">Quienes Somos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="servicios.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Servicios
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Sitios web</a></li>
+                      <li><a class="dropdown-item" href="#">Revistas en OJS</a></li>
+                      <li><a class="dropdown-item" href="#">Campus virtual</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="experiencia.html">Experiencia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>  
+    </header>
+		<main id="main" class="container-md">
+	<section id="contacto"><!-- Inicio de Texto -->
+    	<h1> Contacto </h1>
+
+      <p class="contacto__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur deserunt laborum facere molestias sit illo veritatis earum aliquam nulla sed voluptatibus magnam voluptate sunt explicabo ipsa, quas minima quos ipsum!</p>
+    	<p class="contacto__parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt magnam labore odio, ex itaque quaerat accusamus perspiciatis. Id illum, deserunt laborum assumenda voluptatibus nesciunt reiciendis quisquam ullam laudantium, modi atque?</p>
+      <p class="contacto__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero adipisci maiores eaque nihil exercitationem ratione itaque ullam, obcaecati odio atque officiis architecto aperiam, tempora molestiae fugit nisi eum, nam quos.</p>
+      <p class="contacto__titulo"><strong>Nuestras oficinas</strong></p>
+      <p class="contacto__parrafo">Av. Córdoba 1324 4° piso Dto. A- C.A.B.A.<br>
+   	    +54 9 11 3168.3364 - 5768.3656</p>
+    	<p class="contacto__titulo"><strong>Contáctenos</strong></p>
+    	<form action="index.js" method="POST">
+    	    <label for="nombre"><p>Nombre y apellido:</p></label>
+			<input type="text" name="nombre" id="">
+			<label for="nombre"><p>E-mail:</p></label>
+            <input type="email" name="email" id="">
+    	  	<p>Seleccione el área a la que refiere su consulta:</p>
+            <select name="Area" id="">
+				<option value="secretaria">Secretaría</option>
+				<option value="eventos">Eventos</option>
+				<option value="revista">Revista</option>
+			</select>
+            <p>Desea suscribirse a nuestra lista de mails </p>
+			<label for="suscribirse">Si</label>
+    	    <input type="checkbox" name="suscribirse" id="si" value="Si">
+			<input type="submit" name="submit" id="submit" value="Enviar">
+    	    <input type="reset" name="reset" id="reset" value="Borrar">
+       </form>
+
+	</section><!-- Fin de Texto --><!-- Fin de videos -->
+	</main>
+	<hr>
+	<footer><!-- Inicio de footer -->
+		<h4>Nombre del sitio y breve comentario</h4>
+		<h4>Novedad destacada</h4>
+		<h4>Acceso a formulario de contacto</h4>
+		<h4>Domicilio, Tel, WA, Mail</h4>
+	</footer><!-- Fin de footer -->
+</body>
+	
+</html>
